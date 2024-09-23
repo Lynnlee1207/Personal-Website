@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lynn - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="Lynn Lee" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Siyi Li">Siyi(Lynn) Li</h1>
+
+          <p class="title">Business Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:lynniele2002@gmail.com" class="contact-link">lynniele2002@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+353 871731562" class="contact-link">+353 (087) 1731562</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-12-07">December 07, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Leuven, Belgium; Shanghai, China</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            This is Siyi Li, a master student at KU Leuven. 
+            Throughout the academic journey,
+            I have gained extensive experience in various aspects of business management, 
+            including VC/PE investment, strategy analysis, business planning, data visualization 
+            and marketing design. 
+          </p>
+
+          <p>
+            Additionally, my knowledge of customer service and marketing is abundant.
+            Furthermore, I 
+            have completed internships in specific areas that have further enhanced my practical experience. 
+            As an independent author, 
+            I have also proudly published three research papers at the conference in 2022 and 2023. Recently,
+            I published an article on Springer Nature - Empirical Economics. 
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research</h4>
+
+                <p class="service-item-text">
+                  Doing research on the topic of NLP, Data Science, Machine Learning and Finance.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Study</h4>
+
+                <p class="service-item-text">
+                  I still keep working on Master of Science Degree on Information Management.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Video Editing</h4>
+
+                <p class="service-item-text">
+                  Making and cutting videos in a fashionable style is my interest.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category in my spare time.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - reference
+        -->
+
+        <section class="references">
+
+          <h3 class="h3 references-title">References</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Magggie Hu" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Maggie Hu (Prof from CUHK)</h4>
+          
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Siyi worked hard for the project. Her research focuses on Digital Marketing conditions in China.
+                    She conducted a questionnaire survey on e-marketing in the real estate industryy and conducted 
+                    a briefdata analysis which found that real estate consumer behaviours are greatly impacted
+                    by digital chanel. 
+                    Overall, Siyi LI's performance in this program was Very Good.
+                    I hope this letter will be a useful reference for you to assess Siyi LI's academic performance.
+        
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Pengqiang Li (CEO of Interlink)" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Pengqiang Li(CEO of Interlink)</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Lynn impressed me a lot when we were working together on INNOLINK Fund short-term intership program
+                    in June 2022. She has demostrated strong learning initiatives and professional attitudes.
+                    She made every effort to study the operation of VC companies and conduct successful simulation exercises.
+                    which greatly trained her abilities to write senior thesis on formal investment occasions.
+                    And I am happy to see her strategic thinking and analytical ability has been obviously improved.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/my-avatar.png" alt="Chao Lv (GM of Citi Bank in Shanghai)" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Chao Lv(GM of Citi Bank in Shanghai)</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Lynn participated a part-time internship program in April, 2023. She is an outstanding student with an in-depth
+                    understanding of investment theory and market operation.
+                    Lynn demonstrated her grasp of the subject matter in her internship performance as well as written assignment.
+                    She was one of the fast learners in the program and was able to offer perspectives on various issues drawn from 
+                    her own academic background.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Man Poon Man Ming (Financial Manager of FTLife (HK))" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Man Poon Man Ming(Financial Manager of FTLife (HK))</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Siyi Li was a student in the Hong Kong International Finance Internship Program in January and February, 2023.
+                    She is an outstanding student with an in-depth understanding of the Hong Kong’s finance systems, investment
+                    theory and market operation.
+                    Siyi Li demonstrated her grasp of the subject matter in her class performance as well as written assignment.
+                    Moreover, she was an enthusiastic participant in class discussions and helped to make the courses rewarding
+                    experience for everyone else involved.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2023-08-10">10 August, 2023</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - Places Visited
+        -->
+
+        <section class="Places visited">
+
+          <h3 class="h3 Places visited-title">Places Visited</h3>
+
+          <ul class="clients-list has-scrollbar">
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/KU_Leuven.png" alt="client logo" style="width: 200px; height: 200px;">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Oxford.svg.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/Universitycollegedublinlogo.png" alt="client logo"  style="width: 140px; height: 200px;">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/UST.svg.png" alt="client logo" style="width: 150px; height: 200px;">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/2048px-HP_logo_2012.svg.png" alt="client logo" style="width: 200px; height: 200px;">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">KU Leuven</h4>
+
+              <span>2024 — </span>
+
+              <p class="timeline-text">
+                Master of Information Management 
+                •	Selected Courses: Data Science for Business; Business Analysis, Data Visualisation,
+                Principles of Database Management, Simulation Theory and Applications.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University College Dublin</h4>
+
+              <span>2021 — 2024</span>
+
+              <p class="timeline-text">
+                Bachelor of Commerce 
+                •	Selected Courses: Corporate Financial Management (A), Econometrics of
+                Financial Markets(A), Data prog with Python(A),Practical Statistics(A).
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Oxford</h4>
+
+              <span>July 2023 — August 2023</span>
+
+              <p class="timeline-text">
+                Machine Learning Summer School in NLP& Finance and Biology
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Hong Kong University of Science and Technology</h4>
+
+              <span>Jan 2023 — June 2023</span>
+
+              <p class="timeline-text">
+                Exchange Program
+                •	Selected Courses: Business Intelligence; Strategic Management in China; Deal Making in Emerging Countries;
+                Operation Management, Statistics
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Part-time Investment Analyst Intern, Global Markets Team</h4>
+
+              <span>Mar 2023 — May 2023</span>
+
+              <p class="timeline-text">
+                •	Gathered and analyzed financial data, prepared reports and presentations, and assisted in the development of 
+                investment recommendations; Monitored the performance of investment portfolios and conducted ongoing research 
+                to ensure that investment strategies remained relevant and effective
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Strategic Investment PTA, Finance Department</h4>
+
+              <span>Jan 2023 — Feb 2023</span>
+
+              <p class="timeline-text">
+                •	Studied the background of Hong Kong’s financial market and insurance market, and made predictions of future 
+                performance; Analyzed the product performance and financial performance to decide whether it was worth 
+                investing; Made product promotions and explanations based on analyzed and gathered data
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CVC Strategy Analysis Assistant Externship, Finance Department</h4>
+
+              <span>Sep 2022 — Dec 2022</span>
+
+              <p class="timeline-text">
+                •	Conducted research on the IT industry, independently completed the survey on the understanding of IT and IT 
+                industry, and understood the market share and its environment; Conducted preliminary desk research on the 
+                information technology industry and analyzed its investment and profitability mode in combination with the 
+                macroeconomic situation of the industry.
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Coding: Python, R language, Tableau</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Financial/Data Analysis</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Video Editing</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Research Project</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications Design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Certificate</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Research Project</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications Design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Certificate</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="research project">
+              <a href="https://www.researchgate.net/publication/366291316_Impact_of_Digital_Marketing_on_Real_Estate_Market_in_China">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/Real Estate Paper.jpg" alt="Impact of Digital Marketing on Real Estate">
+                </figure>
+
+                <h3 class="project-title">Impact of Digital Marketing On Real Estate</h3>
+
+                <p class="project-category">Research Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research project">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/Informal Economy Paper.jpg" alt="Digitalisation on Informal Ecnomy" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Digitalisation on Informal Economy</h3>
+
+                <p class="project-category">Research Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research project">
+              <a href="https://drpress.org/ojs/index.php/HBEM/article/view/9648">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/CRH report.jpg" alt="Financial Analysis on Construction Company, CRH plc." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Financial Analysis on Construction Company, CRH plc.</h3>
+
+                <p class="project-category">Research Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/Oreal Competition Design.png" alt="App Design for Oreal Brainstorm Competition" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">App Design for Oreal Brainstorm Competition</h3>
+
+                <p class="project-category">Applications Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research project">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/HGCN-DDI.jpg" alt="Predicting Drug-Drug Interactions using Heterogeneous Graph Convolutional Networks: HGCN-DDI" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Predicting Drug-Drug Interactions using HGCN</h3>
+
+                <p class="project-category">Research Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research project">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/GANS-prediction.jpg" alt="Using GANs and Attention for Stock Price Prediction" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Using GANs and Attention for Stock Price Prediction</h3>
+
+                <p class="project-category">Research Project</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/SolCar Design.jpg" alt="SolCar App Design" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SolCar App Design</h3>
+
+                <p class="project-category">Applications Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="certificate">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/BloomBerg .jpg" alt="Certificate of Completion for BloomBerg" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Certificate of Completion for BloomBerg</h3>
+
+                <p class="project-category">Certificate</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="certificate">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets/images/Volunteer in Bali Teaching Program.jpg" alt="Volunteer in Bali Teaching Program" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Volunteer in Bali Teaching Program</h3>
+
+                <p class="project-category">Certificate</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #Website
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Links</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://www.linkedin.com/in/siyi-li-991a81203/">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/Linkedin Page.jpg" alt="Linkedin Page for Lynn Lee" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Personal</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-08-10">Aug 10, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Linkedin Page</h3>
+
+                  <p class="blog-text">
+                    This is the Linkedin Page for Lynn Lee. You can know more about her from this page.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.researchgate.net/profile/Siyi-Li-23">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/Researchgate.jpg" alt="Siyi Li Researchgate" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Academic</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-08-12">Aug 12, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Researchgate Profile</h3>
+
+                  <p class="blog-text">
+                    This is the researchgate profile page for Siyi Li. You can read her published paper and contact her here.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.xiaohongshu.com/user/profile/5de36064000000000100a58a?xhsshare=CopyLink&appuid=5de36064000000000100a58a&apptime=1692158338">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/Xiaohongshu.jpg" alt="Xiaohongshu Page" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Personal</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-08-12">Aug 12, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Xiaohongshu Page</h3>
+
+                  <p class="blog-text">
+                    The Xiaohongshu Page shows the daily activity and sharing by Lynn Lee.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/Photoself.jpg" alt="Like flower" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Personal</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2024-09-14">Sept 14, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Travelling in Grindelwald</h3>
+
+                  <p class="blog-text">
+                    Choose to see life's challenges as opportunities for growth, 
+                    and embrace the beauty that surrounds you.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/Photodear.jpg" alt="Photo with dear" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Trip</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-10-23">Oct 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Deers in Phoenix Park</h3>
+
+                  <p class="blog-text">
+                    Spending a happy day in Phoenix Park, surrounded by graceful deers, filled my heart with joy and serenity.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="assets/images/Photosea.jpg" alt="Photo with sea" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Trip</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-11-19">Nov 19, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">A trip to the sea and cliff</h3>
+
+                  <p class="blog-text">
+                    With the waves crashing before me, I am immersed in a moment of pure freedom, where all worries fade away.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.6355524233704!2d4.697871411793616!3d50.874946456591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c16127bec894cf%3A0x9f8ffa2456c9e575!2sFaculty%20of%20Economics%20and%20Business%20KU%20Leuven!5e0!3m2!1sen!2sie!4v1727122803461!5m2!1sen!2sie" 
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
